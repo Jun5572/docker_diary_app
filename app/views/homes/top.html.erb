@@ -1,3 +1,10 @@
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
-<p>トップページ画面</p>
+<img class="top_background" src="images/background.jpg">
+<section class="entrance_wrapper">
+	<img class="app_title" src="images/zawawa.png">
+	<div class="buttons_wrapper">
+		<%= link_to "Sign up", new_user_registration_path, class: "sign_up_button" %>
+	</div>
+	<div class="buttons_wrapper">
+		<%= link_to "Sign in", new_user_session_path, class: "sign_in_button" %>
+	</div>
+</section>
